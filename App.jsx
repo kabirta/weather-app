@@ -21,7 +21,7 @@ const WeatherApp = () => {
   const [city, setCity] = useState('Kolkata');
   const [inputCity, setInputCity] = useState('');
 
-  const API_KEY = 'c0070629bdf23dabae259096b24c7400';
+  const API_KEY = your_api_key;
 
   useEffect(() => {
     fetchWeather();
